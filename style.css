@@ -26,25 +26,21 @@ width: 100%;
     justify-content: end;
     color: black;
     text-decoration: none;
-
-}
-.txtmenu{
-
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 50px;
+    padding-top: 50px;
+
 }
 
-.ho:hover{
+
+
+.buttonmenu:hover, .buttonmenu:focus{
     border-top: solid 4px;
     color: #0065FC;
 
 }
 
-:target .ho{
-    color: #0065FC;
-    background:red;
-}
+
 
 body{
 font-family: Raleway;
@@ -88,7 +84,7 @@ h1{
 }
 .research{
      width: 240px;
-     padding: 19px;
+    padding: 19px;
      font-size: 16px;
      font-weight: 600;
      border-width: 1px;
@@ -244,7 +240,7 @@ flex-direction: column;
 background-color: #F2F2F2;
 margin-left: 3.5%;
 border-radius: 20px 20px 20px 20px;
-width: 65%;
+width: 67%;
 margin-right:3%;
 
 }
@@ -359,7 +355,7 @@ font-size: 22px;
     margin-right:3.5%;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 37%;
+    width: 30%;
 
 }
 
@@ -389,7 +385,7 @@ font-size: 22px;
     display:flex;
     flex-direction:column;
     margin-right: 0;
-
+  
    
 }
 
@@ -402,13 +398,14 @@ font-size: 22px;
     width: 81%;
     margin-left: 7%;
     overflow:hidden;
-    height:140px;
+    height:145px;
     padding-right:12px;
     margin-bottom: 7%;
     background-color: white;
     text-decoration: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     transition:1s;
+    
 }
 
 .cardpopular:hover{
@@ -419,14 +416,23 @@ font-size: 22px;
 }
 
 .photopop{
+
     display: flex;
     align-items: center;
+    justify-content: center;
     overflow:hidden;
-    margin-right: -10%;
-    margin-left: -10%;
-    width: 100%;
+    width: 60%;
+    object-fit: contain;
+  
+}
+
+.imagepop{
+   min-width:148%;
+   min-height:100%;
 
 }
+
+
 
 .popinformations{
     display:flex;
@@ -434,6 +440,7 @@ font-size: 22px;
     flex-direction: column;
     width:100%;
     background-color:white;
+    overflow:hidden;
     
 }
 
@@ -445,6 +452,8 @@ font-size: 22px;
     font-weight: 600;
     text-decoration: none;
     color: black;
+    
+    
 }
 
 .pricepop{
@@ -452,11 +461,13 @@ font-size: 22px;
     margin-left:10%;
     text-decoration:none;
     color:black;
+    
 }
 
 .starspop{
     margin-top:15%;
     margin-left: 10%; 
+    
 }
 
 .titleactiv{
@@ -669,6 +680,8 @@ margin-right: 20px;
         display: none;
     }
 /*Section 2*/
+
+
    
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
@@ -685,6 +698,51 @@ margin-right: 20px;
     display: none;
 }
 /*Section 2*/
+
+.blocpopular{
+
+    border-radius: 20px 20px 20px 20px;
+    
+   
+}
+
+.containercardpopular{
+    display:flex;
+   justify-content: center;
+   
+}
+
+.charts{
+ padding: none;
+ margin: none;
+ 
+
+
+}
+
+.cardpopular{
+    width: 50%;
+    align-self: center;
+
+ 
+}
+
+.photopop{
+
+    
+}
+
+.popinformations{
+    justify-content: space-between;
+    overflow:hidden;
+  
+  
+}
+
+.starspop{
+    margin-bottom: 4%;
+}
+
 }
 @media screen and (max-width: 768px){
  /*CSS header + section 1 */ 
@@ -710,8 +768,6 @@ margin-right: 20px;
 .menu{
     width:100%;
     display: flex;
-    align-items: flex-end;
-    align-content: center;
     margin-right:0;
     margin-top: 5%;
 
@@ -721,15 +777,14 @@ margin-right: 20px;
     display:flex;
     width: 100%;
     border-bottom: solid 6px #F2F2F2;
+    justify-content: center;
+    padding: 0;
     margin-bottom: 5%;
     padding-bottom:20px;
+    
 
 }
-.txtmenu{
-    text-align:center;
-    width: 100%;
-   
-}
+
 .ho:hover{
     border-bottom:solid 6px;
     border-top: none;
@@ -737,11 +792,18 @@ margin-right: 20px;
 
 h1{
     margin-right: 50px;
+    margin-left: 4%;
 }
+
+.but{
+    margin-left: 4%;
+}
+
 .searchbloc{
   width: 90%;
   margin: auto;
-    margin-top: 30px;
+  margin-top: 30px;
+  justify-content: center;
     
     
 
@@ -760,20 +822,22 @@ h1{
 
 .searchbutton{
     display: none;
+    
 }
+
 .loupe{
  display: flex;
  align-self: center;
  width: auto;
  color: white;
-margin: auto;
+ margin: auto;
  
  
 }
 .searchmarker{
     background: #0065FC;
     display: flex;
-    width:35px;
+    width:30px;
     height:38px;
     border-radius: 10px 10px 10px 10px;
     border: none;
@@ -785,16 +849,18 @@ margin: auto;
 
 .txtfilter{
     margin-top: 50px;
+    margin-left:3%;
    
 }
 
 .bigblocfilter{
     flex-direction: column;  
+    margin-left: 4%;
 
 }
 
 .blocfilters{
-    margin-left:0;
+    margin-left: 2%;
 }
 
    
@@ -812,16 +878,53 @@ margin: auto;
     margin-top: 20px;
     align-items:baseline;
     
+    
 }
 
 .txtinfo{
     width:80%;
- 
-
-  
     
 }
 
 /*Section 2*/
+
+.bigbloccontainer{
+    flex-wrap:wrap-reverse;
+}
+
+.blocpopular{
+    width: 100%;
+    margin: 0;
+    padding:0;
+    border-radius: 0 0 0 0;
+    
+    
+}
+
+.containercardpopular{
+    width:100%;
+    margin:0;
+    padding:0;
+   
+    
+    
+}
+
+.blochost{
+    background: none;
+    width:100%;
+
+}
+
+.cardhouse{
+    width:100%;
+    padding-bottom: 4%;
+}
+
+.viewmore{
+    margin-top:5%;
+}
+
+
 
 }
