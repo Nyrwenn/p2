@@ -34,7 +34,7 @@ width: 100%;
 
 
 
-.buttonmenu:hover, .buttonmenu:focus{
+.buttonmenu:hover, .buttonmenu:active{
     border-top: solid 4px;
     color: #0065FC;
 
@@ -262,13 +262,12 @@ font-size: 22px;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     width: 220px;
     margin-left: 4%;
     overflow:hidden;
     height:190px;
-    padding-bottom: 5px;
+    padding: 5px;
     margin-bottom: 4%;
     background-color: white;
     text-decoration:none;
@@ -300,6 +299,8 @@ font-size: 22px;
     display: flex;
     overflow:hidden;
     align-items: center;
+    border-radius: 15px 15px 0px 0px;
+
    
     
 }
@@ -393,12 +394,12 @@ font-size: 22px;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     width: 81%;
     margin-left: 7%;
     overflow:hidden;
     height:145px;
+    padding:5px;
     padding-right:12px;
     margin-bottom: 7%;
     background-color: white;
@@ -423,6 +424,7 @@ font-size: 22px;
     overflow:hidden;
     width: 60%;
     object-fit: contain;
+    border-radius: 15px 0px 0px 15px;
   
 }
 
@@ -475,12 +477,6 @@ font-size: 22px;
     margin-top: 5%;
 }
 
-
-
-.blocactivities{
-
-  
-}
 
 .containeractivities{
 
@@ -565,8 +561,7 @@ font-size: 22px;
 
 .FPshoot{
     width:100%;
-    padding-bottom: -15%;
-    margin-top:-40%;
+    margin-top:-50%;
     overflow: hidden;
 
 }
@@ -590,7 +585,7 @@ font-size: 22px;
 
 .IFshoot{
     width:110%;
-    margin-top: -2%;
+    margin-top: -7%;
     overflow:hidden;
 }
 
@@ -655,13 +650,14 @@ font-size: 22px;
 
 /*section 3 footer*/
 footer{
-    margin-top: 20%;
+    width:100%;
+    height:auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
-    position: relative;
-
-
+    margin-top: 4.5%;
+    padding-bottom: 45px;   
 
 }
 
@@ -669,8 +665,24 @@ footer{
     display: flex;
     flex-direction: column;
     width:20%;
-margin-right: 20px;
+    margin-right: 165px;   
 }
+
+.titlefooter{
+    margin-top: 55px;
+    margin-bottom:3%;
+    margin-left:50px;
+    font-weight: 600;
+}
+
+.txtfooter{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-left:50px;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 992px){
     /*CSS header + section 1 */ 
     .loupe{
@@ -684,66 +696,8 @@ margin-right: 20px;
 
    
 }
-@media screen and (min-width: 768px) and (max-width: 991px){
-/*CSS header + section 1 */ 
-.searchbloc{
-    margin-top: 20px;
-    width: 50%;
-
-}
-.loupe{
-    display: none;
-}
-.searchmarker{
-    display: none;
-}
-/*Section 2*/
-
-.blocpopular{
-
-    border-radius: 20px 20px 20px 20px;
-    
-   
-}
-
-.containercardpopular{
-    display:flex;
-   justify-content: center;
-   
-}
-
-.charts{
- padding: none;
- margin: none;
- 
 
 
-}
-
-.cardpopular{
-    width: 50%;
-    align-self: center;
-
- 
-}
-
-.photopop{
-
-    
-}
-
-.popinformations{
-    justify-content: space-between;
-    overflow:hidden;
-  
-  
-}
-
-.starspop{
-    margin-bottom: 4%;
-}
-
-}
 @media screen and (max-width: 768px){
  /*CSS header + section 1 */ 
     header{
@@ -905,9 +859,11 @@ h1{
     width:100%;
     margin:0;
     padding:0;
-   
-    
-    
+
+}
+
+.cardpopular{
+    margin-bottom:5%;
 }
 
 .blochost{
@@ -919,12 +875,243 @@ h1{
 .cardhouse{
     width:100%;
     padding-bottom: 4%;
+    height:220px;
+    margin-bottom:6%;
 }
 
 .viewmore{
     margin-top:5%;
 }
 
+.blocactivities{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0;
+    height:auto;
+    justify-content: space-between;
+}
 
+.titleactiv{
+    margin-bottom:8%;
+    margin-left:7%;
+}
 
+.VP, .FP, .IF, .PN, .ND, .PL{
+    width:100%;
+    height:210px;
+    margin:0;
+    margin-bottom: 10%;
+    padding:0;
+   
+  
+
+}
+
+.VPshoot{
+    width:auto;
+    height:auto;
+    align-items: flex-start;
+    margin:0;
+    padding:0;
+    
+}
+
+ .PNshoot{
+    width: auto;
+    height:auto;
+    align-items: center;
+    margin-left:0;
+   
+}
+
+.PLshoot{
+  margin-top:-8%;
+}
+
+.containvertical{
+    width:100%;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0;
+    padding:0;
+    margin-bottom:12%;
+    
+}
+
+.containeractivities{
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 85%;
+  padding: 0;
+  height: auto;
+  justify-content: space-between;
+  align-self: center;
+  margin:0;
+  
+}
+
+/*footer*/
+
+.footer{
+    display:flex;
+    width:100%;
+    margin: 0;
+    height:auto;
+   
+    
+}
+
+.blocfoot{
+    width:100%;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+
+}
+
+.titlefooter{
+    margin-left:9%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.txtfooter{
+    margin-left:9%;
+    margin-top:0;
+    margin-bottom: 15px;
+
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    /*CSS header + section 1 */ 
+    .searchbloc{
+        margin-top: 20px;
+        width: 50%;
+    
+    }
+    .loupe{
+        display: none;
+    }
+    .searchmarker{
+        display: none;
+    }
+    /*Section 2*/
+    
+    .blocpopular{
+    
+        border-radius: 20px 20px 20px 20px;
+        
+       
+    }
+    
+    .containercardpopular{
+        display:flex;
+       align-content: center;
+       
+    }
+    
+    .charts{
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+    .cardpopular{
+        width: 60%;
+        align-self: center;
+        justify-content:center;
+        margin-left :0;
+     
+    }
+    
+    .popinformations{
+        justify-content: space-between;
+        overflow:hidden;
+      
+      
+    }
+    .bigbloccontainer{
+        width:100%;
+        justify-content:center;
+        
+    }
+    
+    .blochost{
+        width:100%;
+        height:auto;
+        justify-content: center;
+        margin:0;
+        padding:0;
+        
+    }
+    .containercardhouse{
+        width:80%;
+        height: auto;
+        align-self: center;
+        margin:0;
+        padding:0;
+        
+    }
+    
+    .cardhouse{
+        width:80%;
+        height: 270px!important;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:10%;
+    }
+    .hostname{
+        margin-top: 2%;
+    
+    }
+    
+    .blocactivities{
+        width: 100%;
+        margin:0;
+        justify-content: center;
+        padding:0;
+        height:auto;
+    }
+    
+    .containeractivities{
+        width:100%;
+        margin-right:auto;
+        margin-left:auto;
+        justify-content: center!important;
+        height:auto;
+        
+    
+    }
+    
+    .containvertical{
+        justify-content: center;
+        margin-bottom: 45%!important;
+        
+    
+    }
+    
+    .VP, .FP, .IF, .PN, .ND, .PL{
+
+        width: 80%;
+        height: 320px!important;
+        
+    
+    }
+
+    /*footer*/
+
+    .footer{
+        
+        height:auto;
+    }
+    
+
+    .blocfoot{
+        width: 30%;
+        margin-right: 2%;
+    }
 }
