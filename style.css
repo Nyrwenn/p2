@@ -1,4 +1,4 @@
-@import url('https: //fonts.googleapis.com/css2?family=Raleway: wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap');
 /*CSS header + section 1 */ 
 header{
     width: 97%;
@@ -49,7 +49,7 @@ main{
 
 
 
-.buttonmenu: hover, .buttonmenu: active{
+.buttonmenu:hover, .buttonmenu:active{
     border-top: solid 4px;
     color: #0065FC;
 }
@@ -72,7 +72,7 @@ h1{
 }
 
 .searchbloc{
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: flex-start;
     align-content: center;
@@ -84,8 +84,8 @@ h1{
 }
 
 .map{
-    display: flex;  
-    background: #F2F2F2;
+    display:flex;  
+    background:#F2F2F2;
     border-radius: 10px 0 0 10px;
     box-sizing: content-box;
     justify-content: center;
@@ -114,8 +114,8 @@ h1{
     text-shadow: 0px 0px 5px rgba(66,66,66,.0);  
 }
 
-#recherche: : placeholder{
-    color: black;
+#recherche::placeholder{
+    color:black;
 }
 
 .searchbutton{
@@ -124,7 +124,7 @@ h1{
     line-height: 0;
     height: 100%;
     padding: 20px;
-    background-color: #0065FC;
+    background-color:#0065FC;
     color: white;
     border-radius: 0 10px 10px 0;
     border: none;
@@ -136,7 +136,7 @@ h1{
 
 .bigblocfilter{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     margin-left: 5%;
     cursor: pointer;  
 }
@@ -157,9 +157,9 @@ h1{
     flex-wrap: wrap;
 }
 
-.blocfilters: hover{
-    background-color: #0065FC;
-    color: #F2F2F2;
+.blocfilters:hover{
+    background-color:#0065FC;
+    color:#F2F2F2;
 }
 
 .blocfilters{
@@ -176,7 +176,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: #DEEBFF ;
+    background:#DEEBFF ;
     border-radius: 50%;
     width: 40px;
     height: 40px;   
@@ -200,11 +200,11 @@ h1{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom:30px;
 }
 
 .circleinfo{
-    display: flex;
+    display:flex;
     border: 1px solid #F2F2F2;
     border-radius: 50%;
     width: 25px;
@@ -214,13 +214,13 @@ h1{
 }
 
 .logoinfo{
-    color : #0065FC;
+    color :#0065FC;
     display: flex;
     align-self: center;   
 }
 
 .txtinfo{
-    display: f lex;
+    display: flex;
     flex-direction: row;
     align-self: center;
     margin-left: 15px;  
@@ -241,7 +241,7 @@ h1{
     margin-left: 3.5%;
     border-radius: 20px 20px 20px 20px;
     width: 67%;
-    margin-right: 3%;
+    margin-right:3%;
 }
 
 h2{
@@ -270,13 +270,13 @@ h2{
     margin-bottom: 4%;
     background-color: white;
     text-decoration: none;
-    color: black;
+    color:black;
     transition: 1s;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.cardhouse: hover{
-    border: #DEEBFF solid 5px;
+.cardhouse:hover{
+    border:#DEEBFF solid 2px;
     transition: 1s;
     transform: scale(1.2);
     box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
@@ -287,7 +287,7 @@ h2{
     flex-direction: column;
     text-decoration: none;
     height: 80px;
-    background-color: white;
+    background-color:white;
 }
 
 
@@ -331,7 +331,7 @@ h2{
 }
 
 .greystar{
-    color: #F2F2F2;
+    color:#F2F2F2;
 }
 
 .viewmore{
@@ -345,7 +345,7 @@ h2{
 .blocpopular{
     display: flex;
     flex-direction: column;
-    margin-right: 3.5%;
+    margin-right:3.5%;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     width: 30%;
@@ -394,8 +394,8 @@ h2{
     transition: 1s;   
 }
 
-.cardpopular: hover{
-    border: #DEEBFF solid 5px;
+.cardpopular:hover{
+    border:#DEEBFF solid 5px;
     transition: 1s;
     transform: scale(1.1);
     box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
@@ -421,7 +421,7 @@ h2{
     text-decoration: none;
     flex-direction: column;
     width: 100%;
-    background-color: white;
+    background-color:white;
     overflow: hidden;   
 }
 
@@ -439,7 +439,7 @@ h2{
     margin-top: 5%;
     margin-left: 10%;
     text-decoration: none;
-    color: black;  
+    color:black;  
 }
 
 .starspop{
@@ -461,7 +461,7 @@ h2{
     height: 410px;
 }
 
-.deco: hover{
+.deco:hover{
     background: #DEEBFF;
     transition: 1s;
     transform: scale(1.08);
@@ -469,7 +469,7 @@ h2{
 }
 
 .VP{
-    background: white; 
+    background:white; 
     display: flex;
     flex-direction: column;
     height: 410px;
@@ -494,11 +494,11 @@ h2{
     margin-left: 6%;
     margin-top: 6%;
     margin-bottom: 6%;
-    color: black;
+    color:black;
 }
 
 .containvertical{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: space-between;
     height: 410px;
@@ -507,7 +507,7 @@ h2{
 }
 
 .FP{
-    background: white;
+    background:white;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -561,7 +561,7 @@ h2{
 .PNshoot{
     overflow: hidden;
     width: 220%;
-    margin-left: -60%; 
+    margin-left:-60%; 
     height: 100%;
 }
 
@@ -570,7 +570,7 @@ h2{
 }
 
 .ND{
-    background: white;
+    background:white;
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 20px 20px;
@@ -589,7 +589,7 @@ h2{
 }
 
 .PL{
-    background: white;
+    background:white;
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 20px 20px;
@@ -700,7 +700,7 @@ footer{
         border-top: none;
     }
 
-    .ho: hover{
+    .ho:hover{
         border-bottom: solid 6px;
         border-top: none;
     }
@@ -964,7 +964,7 @@ footer{
         width: 60%;
         align-self: center;
         justify-content: center;
-        margin-left : 0;
+        margin-left: 0;
     }
     
     .popinformations{
