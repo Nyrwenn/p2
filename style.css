@@ -232,7 +232,7 @@ h1{
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
 }
 
 .blochost{
@@ -256,18 +256,18 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .cardhouse{
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 20px 20px;
-    width: 27%;
+    width: 28%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%; 
+    margin-bottom: 4%; 
     padding: 5px;
     background-color: white;
     text-decoration: none;
@@ -287,17 +287,15 @@ h2{
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    height: 75px;
+    height: 70px;
     background-color:white;
 }
 
-
 .photohost{
-    display: flex;
-    overflow: hidden;
-    align-items: center;
+    width: 100%;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
-    height: 88px;    
+    height: 110px;    
 }
 
 .hostname{
@@ -310,7 +308,7 @@ h2{
 .hostprice{
     display: flex;
     margin-left: 4%;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-bottom: 4%;
 }
 
@@ -385,7 +383,7 @@ h2{
     width: 80%;
     margin-left: 7%;
     overflow: hidden;
-    height: 20%;
+    height: 138px;
     padding: 5px;
     padding-right: 12px;
     margin-bottom: 7%;
@@ -401,20 +399,11 @@ h2{
     transform: scale(1.1);
     box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
 }
-
-.photopop{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    width: 60%;
-    object-fit: contain;
-    border-radius: 15px 0px 0px 15px; 
-}
-
+/*suppression photopop*/
 .imagepop{
-   min-width: 148%;
-   min-height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px; 
 }
 
 .popinformations{
@@ -423,22 +412,19 @@ h2{
     flex-direction: column;
     width: 100%;
     background-color:white;
-    overflow: hidden;   
+    justify-content: space-between;
 }
 
 .hostpop{
     display: flex;
-    margin-top: 5%;
     margin-right: 12%;
     margin-left: 10%;
     font-weight: 600;
-    font-size: 90%;
     text-decoration: none;
     color: black;    
 }
 
 .pricepop{
-    margin-top: 5%;
     margin-left: 10%;
     text-decoration: none;
     color:black;  
@@ -446,7 +432,7 @@ h2{
 
 .starspop{
     margin-top: 10%;
-    margin-left: 10%;     
+    margin-left: 10%;
 }
 
 .titleactiv{
