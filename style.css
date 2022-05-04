@@ -509,7 +509,7 @@ h2{
 
 .FPshoot{
     width: 100%;
-    margin-top: -50%;
+    object-fit: cover;
     overflow: hidden;
 }
 
@@ -633,8 +633,6 @@ footer{
     margin-left: 50px;
     cursor: pointer;
 }
-
-
     /*CSS header + section 1 */ 
     .loupe{
         display: none;
@@ -643,279 +641,6 @@ footer{
      display: none;
     }
 /*Section 2*/  
-
-@media screen and (max-width: 767px){
- /*CSS header + section 1 */ 
-    header{
-        display: flex;
-        height: auto;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 0;
-        margin-left: 0;
-        width: 100%;
-    }
-
-
-    #logo{
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-    }
-
-    .menu{
-        width: 100%;
-        display: flex;
-        margin-right: 0;
-        margin-top: 5%;
-    }
-
-    .buttonmenu, .buttonhost{
-        display: flex;
-        width: 100%;
-        border-bottom: solid 6px #F2F2F2;
-        justify-content: center;
-        padding: 0;
-        margin-bottom: 5%;
-        padding-bottom: 20px;
-    }
-
-    .buttonhost{
-        border-bottom: solid 6px #0065FC;
-        border-top: none;
-    }
-
-    .ho:hover{
-        border-bottom: solid 6px;
-        border-top: none;
-    }
-
-    h1{
-        margin-right: 50px;
-        margin-left: 4%;
-    }
-
-    .but{
-        margin-left: 4%;
-    }
-
-    .searchbloc{
-        width: 90%;
-        margin: auto;
-        margin-top: 30px;
-        justify-content: center;
-    }
-
-    .map{
-        padding-left: 15px;
-        padding-right: 15px;
-        width: auto;
-    }
-
-    .research{
-        width: 77%; 
-    }
-
-    .searchbutton{
-        display: none; 
-    }
-
-    .loupe{
-        display: flex;
-        align-self: center;
-        width: auto;
-        color: white;
-        margin: auto;
-    }
-
-    .searchmarker{
-        background: #0065FC;
-        display: flex;
-        width: 30px;
-        height: 38px;
-        border-radius: 10px 10px 10px 10px;
-        border: none;
-        flex-direction: row;
-        box-sizing: content-box;
-        margin-left: -10px;
-    }
-
-    .txtfilter{
-        margin-top: 50px;
-        margin-left: 3%;
-    }
-
-    .bigblocfilter{
-        flex-direction: column;  
-        margin-left: 4%;
-    }
-
-    .blocfilters{
-        margin-left: 2%;
-    }
-
-    .filters{
-        flex-direction: row;   
-        flex-wrap: wrap;
-        width: auto;
-        justify-content: start;
-    }
-
-    .info{
-        margin-top: 20px;
-        align-items: baseline;  
-    }
-
-    .txtinfo{
-        width: 80%;   
-    }
-
-/*Section 2*/
-
-    .bigbloccontainer{
-        flex-wrap: wrap-reverse;
-    }
-
-    .blocpopular{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border-radius: 0 0 0 0;  
-    }
-
-    .containercardpopular{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .cardpopular{
-        margin-bottom: 5%;
-    }
-
-    .blochost{
-        background: none;
-        width: 100%;
-    }
-
-    .cardhouse{
-        width: 100%;
-        padding-bottom: 4%;
-        height: 220px;
-        margin-bottom: 6%;
-    }
-
-    .viewmore{
-        margin-top: 5%;
-    }
-
-    .blocactivities{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0;
-        height: auto;
-        justify-content: space-between;
-    }
-
-    .titleactiv{
-        margin-bottom: 8%;
-        margin-left: 7%;
-    }
-
-    .FP, .IF, .ND, .PL{
-        width: 100%;
-        min-height: 210px;
-        margin: 0;
-        margin-bottom: 10%;
-        padding: 0;
-    }
-
-    .fullimageheight{
-        width: 100%;
-    }
-
-    .VP, .PN{
-        width: 100%;
-        min-height: auto;
-        height: auto;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 10%;
-    }
-
-    .VPshoot{
-        width: 100%;
-        height: 150px;
-        align-items: flex-start;
-        margin: 0;
-        padding: 0;  
-    }
-
-    .PNshoot{
-        width: 100%;
-        height: 150px;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .PLshoot{
-        margin-top: -8%;
-    }
-
-    .containvertical{
-        width: 100%;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 23%;  
-    }
-
-    .containeractivities{
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 85%;
-        padding: 0;
-        height: auto;
-        justify-content: space-between;
-        align-self: center;
-        margin: 0;
-  
-    }
-
-/*footer*/
-
-    .footer{
-        display: flex;
-        width: 100%;
-        margin: 0;
-        height: auto;
-    }
-
-    .blocfoot{
-        width: 100%;
-        margin-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .titlefooter{
-        margin-left: 9%;
-        margin-top: 35px;
-        margin-bottom: 25px;
-    }
-
-    .txtfooter{
-        margin-left: 9%;
-        margin-top: 0;
-        margin-bottom: 15px;
-    }
-}
 
 @media screen and (max-width: 991px){
     /*CSS header + section 1 */ 
@@ -936,14 +661,20 @@ footer{
         display: none;
     }
     /*Section 2*/
-    
+
     .blocpopular{
-        border-radius: 20px 20px 20px 20px;   
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 10%; 
+        margin-left: 0;
+        margin-right: 0;  
     }
     
     .containercardpopular{
+        width: 100%;
         display: flex;
-       align-content: center;  
+        align-content: center;
+        height: auto;
     }
     
     .charts{
@@ -964,7 +695,11 @@ footer{
     }
 
     .bigbloccontainer{
+        display: flex;
+        flex-wrap: wrap-reverse;
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
         justify-content: center;    
     }
     
@@ -972,7 +707,8 @@ footer{
         width: 100%;
         height: auto;
         justify-content: center;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
         padding: 0;
     }
 
@@ -980,16 +716,25 @@ footer{
         width: 80%;
         height: auto;
         align-self: center;
-        margin: 0;
+        margin-right: 2%;
+        margin-left: 2%;
         padding: 0;    
     }
     
     .cardhouse{
         width: 80%;
-        height: 270px!important;
+        height: 315px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10%;
+    }
+
+    .photohost{
+        height: 200px;
+    }
+
+    .hostinformations{
+        height: 95px;
     }
 
     .hostname{
@@ -998,7 +743,6 @@ footer{
     
     .blocactivities{
         width: 100%;
-        margin: 0;
         justify-content: center;
         padding: 0;
         height: auto;
@@ -1006,33 +750,71 @@ footer{
     
     .containeractivities{
         width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        justify-content: center!important;
         height: auto;
     }
     
     .containvertical{
-        justify-content: center;
-        margin-bottom: 53%!important;
-    }
-    
-    .FP, .IF, .ND, .PL{
-        width: 80%;
-        min-height: auto;
-        height: 320px!important;
+        width: 50%;
+        height: 273px;
     }
 
     .VP, .PN{
         width: 80%;
-        min-height: auto;
-        height: auto!important;
-
+        height: 273px;
     }
 
-    .VPshoot, .PNshoot{
+    .VPshoot{
+        margin-left: -2%;
+        width: 110%;
+        height: 370px;
+    }
+
+    .PNshoot{
+        margin-left: -1%;
+        width: 200%;
+        height: 375px;
+    }
+
+    .FP{
         width: 100%;
-        height: 230px;
+        height: 140px;
+        margin-bottom: 20%;
+    }
+
+    .FPshoot{
+        width: 100%;
+        height: 220px;
+    }
+
+    .IF{
+        width: 100%;
+        height: 118px;
+    }
+
+    .IFshoot{
+        width: 100%;
+        height: 80px;
+    }
+
+    .ND{
+        width: 100%;
+        height: 125px;
+        margin-bottom: 20%;
+    }
+
+    .NDshoot{
+        width: 100%;
+        height: 90px;
+    }
+
+    .PL{
+        width: 100%;
+        height: 135px;
+    }
+
+    .PLshoot{
+        width: 100%;
+        height: 100px;
     }
 
     /*footer*/
@@ -1046,3 +828,309 @@ footer{
         margin-right: 2%;
     }
 }
+
+@media screen and (max-width: 767px){
+    /*CSS header + section 1 */ 
+       header{
+           display: flex;
+           height: auto;
+           flex-direction: column;
+           justify-content: center;
+           margin-right: 0;
+           margin-left: 0;
+           width: 100%;
+       }
+   
+       #logo{
+           display: flex;
+           justify-content: center;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 5%;
+       }
+   
+       .menu{
+           width: 100%;
+           display: flex;
+           margin-right: 0;
+           margin-top: 5%;
+       }
+   
+       .buttonmenu, .buttonhost{
+           display: flex;
+           width: 100%;
+           border-bottom: solid 6px #F2F2F2;
+           justify-content: center;
+           padding: 0;
+           margin-bottom: 5%;
+           padding-bottom: 20px;
+       }
+   
+       .buttonhost{
+           border-bottom: solid 6px #0065FC;
+           border-top: none;
+       }
+   
+       .ho:hover{
+           border-bottom: solid 6px;
+           border-top: none;
+       }
+   
+       h1{
+           margin-right: 50px;
+           margin-left: 4%;
+       }
+   
+       .but{
+           margin-left: 4%;
+       }
+   
+       .searchbloc{
+           width: 90%;
+           margin: auto;
+           margin-top: 30px;
+           justify-content: center;
+       }
+   
+       .map{
+           padding-left: 15px;
+           padding-right: 15px;
+           width: auto;
+       }
+   
+       .research{
+           width: 77%; 
+       }
+   
+       .searchbutton{
+           display: none; 
+       }
+   
+       .loupe{
+           display: flex;
+           align-self: center;
+           width: auto;
+           color: white;
+           margin: auto;
+       }
+   
+       .searchmarker{
+           background: #0065FC;
+           display: flex;
+           width: 30px;
+           height: 38px;
+           border-radius: 10px 10px 10px 10px;
+           border: none;
+           flex-direction: row;
+           box-sizing: content-box;
+           margin-left: -10px;
+       }
+   
+       .txtfilter{
+           margin-top: 50px;
+           margin-left: 3%;
+       }
+   
+       .bigblocfilter{
+           flex-direction: column;  
+           margin-left: 4%;
+       }
+   
+       .blocfilters{
+           margin-left: 2%;
+       }
+   
+       .filters{
+           flex-direction: row;   
+           flex-wrap: wrap;
+           width: auto;
+           justify-content: start;
+       }
+   
+       .info{
+           margin-top: 20px;
+           align-items: baseline;  
+       }
+   
+       .txtinfo{
+           width: 80%;   
+       }
+   
+   /*Section 2*/
+   
+       .bigbloccontainer{
+           flex-wrap: wrap-reverse;
+       }
+   
+       .blocpopular{
+           width: 100%;
+           margin: 0;
+           padding-bottom: 5%;
+           border-radius: 0 0 0 0;  
+       }
+   
+       .containercardpopular{
+           width: 100%;
+           margin: 0;
+           padding: 0;
+       }
+   
+       .cardpopular{
+           width: 80%;
+           margin-bottom: 5%;
+           margin-left: auto;
+           margin-right: auto;
+       }
+   
+       .blochost{
+           background: none;
+           width: 100%;
+           margin-top: 5%;
+       }
+
+       .containercardhouse{
+        width: 100%;
+       }
+
+       .cardhouse{
+           width: 80%;
+           padding-bottom: 4%;
+           height: 245px;
+           margin-bottom: 6%;
+       }
+
+       .photohost{
+           height: 180px;
+       }
+
+       .hostprice{
+           margin-top: 2%;
+           margin-bottom: 2%;   
+       }
+   
+       .viewmore{
+           margin-top: 5%;
+       }
+   
+       .blocactivities{
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+           width: 100%;
+           margin: 0;
+           height: auto;
+       }
+   
+       .titleactiv{
+           margin-bottom: 8%;
+           margin-left: 7%;
+       }
+   
+       .FP, .IF, .ND, .PL{
+           width: 100%;
+           height: auto;
+           margin: 0;
+           margin-bottom: 10%;
+           padding: 0;
+       }
+   
+       .fullimageheight{
+           width: 100%;
+       }
+   
+       .VP, .PN{
+           width: 100%;
+           height: auto;
+           margin: 0;
+           padding: 0;
+           margin-bottom: 10%;
+       }
+
+       .VPshoot{
+           
+           width: 100%;
+           height: 170px;
+           align-items: flex-start;
+           margin: 0;
+           padding: 0;  
+       }
+   
+       .PNshoot{
+           object-fit: cover;
+           width: 100%;
+           height: 160px;
+           margin-left: 0;
+       }
+
+       .FPshoot{
+           object-fit: cover;
+           height: 180px;
+           margin: 0;
+       }
+
+       .fullimageheight{
+           height: auto;
+       }
+
+       .IFshoot{
+           height: 180px;
+           margin: 0;
+       }
+
+       .NDshoot{
+           height: 170px;
+       }
+   
+       .PLshoot{
+           margin-top: -8%;
+           height: 190px;
+       }
+   
+       .containvertical{
+           width: 100%;
+           flex-wrap: wrap;
+           flex-direction: row;
+           justify-content: space-between;
+           margin: 0;
+           padding: 0; 
+           height: auto;
+       }
+   
+       .containeractivities{
+           flex-wrap: wrap;
+           flex-direction: row;
+           width: 85%;
+           padding: 0;
+           height: auto;
+           align-self: center;
+           margin: 0;
+       }
+   
+   /*footer*/
+   
+       .footer{
+           display: flex;
+           width: 100%;
+           margin: 0;
+           height: auto;
+       }
+   
+       .blocfoot{
+           width: 100%;
+           margin-right: 0;
+           margin-top: 0;
+           margin-bottom: 0;
+       }
+   
+       .titlefooter{
+           margin-left: 9%;
+           margin-top: 35px;
+           margin-bottom: 25px;
+       }
+   
+       .txtfooter{
+           margin-left: 9%;
+           margin-top: 0;
+           margin-bottom: 15px;
+       }
+   }
